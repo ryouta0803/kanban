@@ -1,13 +1,10 @@
-class TopController < ApplicationController
-  before_action :set_user, only: %i(edit update)
+class UserController < ApplicationController
 
-  def index
-    @lists = List.where(user: current_user).order("created_at ASC")
-  end
+before_action :set_user, only: %i(edit update)
 
+  
   def edit
   end
-
 
   def update
     if @user.update_attributes(user_params)
@@ -15,9 +12,9 @@ class TopController < ApplicationController
     else
       render action: :edit
     end
+  end
 
     def set_user
       @user = User.find_by(id: params[:id])
     end
-  end
 end
