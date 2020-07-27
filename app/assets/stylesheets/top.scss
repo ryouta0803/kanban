@@ -3,13 +3,20 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .topPage {
   min-height: 93vh;
-  padding-top: 30px;
   background: #bababa;
   overflow-x: scroll;
+  position: relative;
+  .top {
+    background-image: image-url('yuka.jpg');
+    width: 100vw;
+    height: 100vh;
+  }
   .listWrapper {
+    top: 30px;
     display: flex;
     height: 100%;
     align-items: baseline;
+    position: absolute;
     .list {
       position: relative;
       background: #e2e4e6;

@@ -1,0 +1,10 @@
+<div class="user">
+  <div class="user_header">
+    <h2 class="user_header_title"><%= list.user %></h2>
+
+    <div class="user_header_action">
+      <%= link_to content_tag(:i, '', class: 'fas fa-trash'), user, method: :delete, data: { confirm: "#{user.title}を削除して大丈夫ですか？" } %>
+      <%= link_to(content_tag(:i, '', class: 'fas fa-pen'), edit_user_path(current_user) %>
+    </div>
+  </div>
+</div>

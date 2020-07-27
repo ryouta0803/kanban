@@ -9,7 +9,7 @@ body {
 
 // header
 .header {
-  background: #026aa7;
+  background: #a702a7;
   padding: 10px;
   .nav {
     .header_menu {
@@ -32,9 +32,12 @@ body {
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        font-size: 25px;
+        color: green;
+        font-size: 50px;
         font-weight: bold;
+        font-family: 'Snell Roundhand',sans-serif;
       }
+
       &_inner {
         display: flex;
         padding: 0;
@@ -68,8 +71,9 @@ body {
 }
 
 // sign_up
-.sinupPage {
+.sigupPage {
   margin-top: 10vh;
+  background-image: image-url('yuka.jpg');
   .titleArea {
     text-align: center;
     h1 {font-size: 2rem;}
@@ -101,12 +105,14 @@ body {
 .acountPage_link {
   & > a {
     color: #0075c1;
+    background-image: image-url('yuka.jpg');
   }
 }
 
 // sign_in
 .signinPage {
   margin-top: 10vh;
+  background-image: image-url('yuka.jpg');
   .title {
     margin: 0;
     text-align: center;
