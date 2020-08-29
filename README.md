@@ -17,7 +17,7 @@
 そんな経験から、会話内容を忘れないように管理・記録できるアプリがあったらいいな〜と思い制作しました。
 
 ## 📷DEMO
-![Uploading Animated GIF-downsized (1).gif…]()
+![Animated GIF-downsized (1)](https://user-images.githubusercontent.com/67770359/91628584-15809480-e9fc-11ea-9dee-1919b8b3a16e.gif)
 
 ## 工夫したポイント  
 
