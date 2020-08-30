@@ -71,9 +71,8 @@ body {
 }
 
 // sign_up
-.sigupPage {
+.signupPage {
   margin-top: 10vh;
-  background-image: image-url('yuka.jpg');
   .titleArea {
     text-align: center;
     h1 {font-size: 2rem;}
@@ -105,7 +104,6 @@ body {
 .acountPage_link {
   & > a {
     color: #0075c1;
-    background-image: image-url('yuka.jpg');
   }
 }
 

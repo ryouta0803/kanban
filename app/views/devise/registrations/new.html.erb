@@ -1,4 +1,4 @@
-<div class="sinupPage">
+<div class="signupPage">
   <div class="titleArea">
     <h1>アカウントを新規作成</h1>
     <div class="m-3">or</div>
@@ -22,10 +22,10 @@
         <% end %><br />
         <%= f.password_field :password, class: "form-control", placeholder:"パスワードを入力してください", autocomplete: "off" %>
       </div>
-      <%# <div class="form-group"> %>
-<%#         <%= f.label :password_confirmation %>
-         <%# <%= f.password_field :password_confirmation, class:"form-control", placeholder: "パスワードを再度入力してください", autocomplete: "off" %> 
-      <%# </div> %>
+      <div class="form-group">
+        <%= f.label :password_confirmation %>
+        <%= f.password_field :password_confirmation, class:"form-control", placeholder: "パスワードを再度入力してください", autocomplete: "off" %> 
+      </div>
       <div class="text-center">
         <%= f.submit "アカウントを作成", class: "btn submitBtn" %>
       </div>
